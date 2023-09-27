@@ -1,0 +1,23 @@
+.Navigation {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  height: var(--navHeight);
+  padding: 5px;
+  box-sizing: border-box;
+  box-shadow: 0px 0px 10px rgb(129, 129, 129);
+  z-index: 10;
+}
+.empBy {
+  color: var(--grayColor);
+  font-size: 12px;
+}
+.logoDiv {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+
+.webyTitle {
+  font-size: 22px;
+}

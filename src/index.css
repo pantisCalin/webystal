@@ -1,0 +1,23 @@
+body {
+  margin: 0;
+  font-family: "Arial";
+}
+
+:root {
+  --navHeight: 50px;
+  --mainColor: rgb(0, 22, 82);
+  --secondColor: rgb(255, 157, 0);
+  --grayColor: rgb(140, 140, 140);
+  --fullwidth: 100%;
+  --fullheight: 100%;
+  --navFont: 15px;
+  --borderColor: rgb(215, 215, 215);
+  --grayHover: rgb(240, 240, 240);
+  --borderWidth: 1px;
+  --onOffTitleFont: 22px;
+  --inputFont: 16px;
+  --labelTitleFont: 22px;
+  --greenCol: rgb(0, 170, 0);
+  --redCol: rgb(170, 0, 0);
+  --maxWidthReading: 800px;
+}

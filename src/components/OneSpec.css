@@ -1,0 +1,88 @@
+p {
+  margin: 0;
+  padding: 0;
+}
+.oneSpec {
+  display: flex;
+  flex-direction: column;
+  box-sizing: border-box;
+  background-color: white;
+  border: 1px solid var(--borderColor);
+  margin: 12px;
+}
+
+.oneSpec:hover {
+  box-shadow: 0 0 5px rgb(150, 150, 150);
+  border: 1px solid white;
+}
+
+.specName {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 5px;
+  font-size: var(--onOffTitleFont);
+  box-sizing: border-box;
+  width: var(--fullwidth);
+  color: var(--mainColor);
+  padding: 10px;
+  border-radius: 5px;
+  background-color: white;
+}
+.property {
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 10px;
+}
+.subProperty {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  color: var(--grayColor);
+  font-size: 16px;
+  margin-top: 10px;
+  padding: 0px 12px;
+}
+.superCellData {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-left: 30px;
+}
+
+.superCellSpan {
+  width: 160px;
+  font-family: monospace;
+}
+.propName {
+  display: flex;
+  align-items: center;
+  height: 30px;
+  box-sizing: border-box;
+  width: 100%;
+  background-color: rgb(240, 240, 240);
+  padding-left: 12px;
+  font-style: italic;
+  font-weight: 800;
+  font-size: 13px;
+  color: var(--mainColor);
+  text-decoration: underline;
+  text-decoration-color: var(--secondColor);
+}
+input[type="color"] {
+  border: none;
+  outline: none;
+  height: 21px;
+  width: 24px;
+  border-radius: 50%;
+  cursor: pointer;
+  margin: 0;
+}
+input[type="color"]::-webkit-color-swatch-wrapper {
+  border-radius: 50%;
+  padding: 0;
+}
+input[type="color"]::-webkit-color-swatch {
+  border: none;
+  border-radius: 50%;
+}

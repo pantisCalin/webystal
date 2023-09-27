@@ -1,0 +1,20 @@
+.inputs {
+  display: flex;
+  flex-direction: column;
+}
+input[type="number"] {
+  width: 70px;
+}
+.DFR {
+  display: flex;
+  width: 100%;
+  justify-content: space-between;
+}
+.noMarginTop {
+  margin-top: 0;
+  margin-bottom: 10;
+}
+
+.butandangle {
+  margin-bottom: 10px;
+}

@@ -1,0 +1,79 @@
+@import "./index.css";
+
+/* width */
+::-webkit-scrollbar {
+  width: 5px;
+}
+
+/* Track */
+::-webkit-scrollbar-track {
+  background: #f1f1f1;
+  border-radius: 10px;
+}
+
+/* Handle */
+::-webkit-scrollbar-thumb {
+  background: rgb(10, 11, 59);
+  border-radius: 10px;
+}
+
+/* Handle on hover */
+::-webkit-scrollbar-thumb:hover {
+  background: linear-gradient(180deg, #f1f1f1, rgb(10, 11, 59), #f1f1f1);
+}
+.App {
+  display: flex;
+  flex-direction: column;
+  width: 100vw;
+  height: 100vh;
+}
+
+.underNav {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+  height: calc(100vh - var(--navHeight));
+  width: 100%;
+  background-color: rgb(245, 245, 245);
+  min-width: fit-content;
+}
+.ControlPannel {
+  height: 100%;
+  overflow-y: scroll;
+  min-width: 600px;
+  border-left: 5px solid var(--mainColor);
+  box-sizing: border-box;
+}
+.download {
+  font-size: 14px;
+  padding: 8px 16px;
+  color: var(--mainColor);
+  font-weight: 700;
+  outline: none;
+  background: white;
+  outline: var(--borderWidth) solid var(--borderColor);
+  transition: 0.2s;
+  border: none;
+  flex-grow: 1;
+  cursor: pointer;
+}
+
+.dataAndElements {
+  width: 170px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+input[type="number"] {
+  border: var(--borderWidth) solid var(--borderColor);
+  border-radius: 0px;
+  padding: 5px;
+  font-family: monospace;
+  color: var(--grayColor);
+}
+input[type="number"]:focus {
+  outline: none;
+  background-color: var(--grayHover);
+}

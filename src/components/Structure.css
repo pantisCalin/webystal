@@ -1,0 +1,7 @@
+.canvasDiv {
+  width: fit-content;
+  box-shadow: 0px 0px 15px rgb(160, 160, 160);
+  background-color: white;
+  border-radius: 2px;
+  margin: 0px 0px 0px 200px;
+}

@@ -1,0 +1,25 @@
+input[type="file"] {
+  border: var(--borderWidth) solid var(--borderColor);
+  box-sizing: border-box;
+}
+::-webkit-file-upload-button {
+  color: rgb(245, 245, 245);
+  background: var(--mainColor);
+  outline: none;
+  border: none;
+  padding: 7px 15px;
+  margin-right: 0.5vw;
+  transition: 0.2s;
+  border-right: var(--borderWidth) solid white;
+}
+::-webkit-file-upload-button:hover {
+  cursor: pointer;
+  background: white;
+  color: var(--mainColor);
+  transition: 0.2s;
+  border-right: var(--borderWidth) solid var(--borderColor);
+}
+
+.upFile {
+  margin: 12px;
+}

@@ -1,0 +1,67 @@
+.aboveTable {
+  margin-bottom: 30px;
+  margin-top: 20px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.sort {
+  font-size: 18px;
+  margin-right: 5px;
+}
+.sortInput {
+  font-size: 14px;
+  width: 60px;
+  border-radius: 0;
+  padding: 4px 6px 4px 6px;
+  border: 1px solid rgb(173, 173, 173);
+  box-sizing: border-box;
+}
+
+table,
+th,
+td {
+  border: var(--borderWidth) solid var(--borderColor);
+  text-align: center;
+  cursor: pointer;
+}
+table {
+  border-collapse: collapse;
+  margin: 10px;
+}
+th {
+  font-size: 13px;
+  padding: 5px 5px 5px 5px;
+  color: rgb(10, 11, 59);
+}
+td {
+  font-size: 12px;
+  padding: 8px 5px 8px 5px;
+}
+.remove {
+  border: none;
+  color: rgb(209, 0, 0);
+  background-color: rgba(255, 255, 255, 0);
+}
+.add {
+  border: none;
+  color: rgb(0, 165, 8);
+  background-color: rgba(255, 255, 255, 0);
+}
+.replace {
+  border: none;
+  color: rgb(0, 60, 128);
+  background-color: rgba(255, 255, 255, 0);
+}
+.remove:hover,
+.replace:hover,
+.add:hover {
+  text-decoration: underline;
+  cursor: pointer;
+}
+.redSelected {
+  background-color: rgb(255, 195, 195);
+}
+.focusedData {
+  background-color: rgb(231, 231, 231);
+}
